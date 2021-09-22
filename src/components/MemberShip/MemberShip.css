@@ -1,0 +1,123 @@
+.memberShip{
+    width:90%;
+    overflow: hidden;
+    margin:auto;
+}
+.memberShip .active{
+    display: flex;
+    justify-content: center;  
+}
+.memberShip .active ul{
+    display: flex;
+    position: relative;
+}
+.memberShip .active ul::before{
+    position: absolute;
+    content:'';
+    width:550px;
+    border-bottom:2px dotted gray;
+    margin:auto;
+    margin-top:80px;
+    right:115px;
+    z-index:0;
+}
+.memberShip .active ul li{
+    margin:50px 100px;
+    list-style:none;
+    padding:10px 25px;
+    border-radius:50%;
+    background-color:gray;
+    color:white;
+    font-size:30px;
+    z-index:99999;
+}
+.memberShip form div{
+    width:45%;
+    margin:10px 2%;
+}
+.memberShip form input{
+    width:100%;
+    box-sizing: border-box;
+    display: block;
+    padding:12px;
+    border-radius:0;
+    border: 1px solid gray;
+}
+.memberShip form .date .select .MuiTextField-root{
+    display:inline-block;
+    width:223%;
+    margin:0;
+    padding:0;
+    margin-top:5px;
+}
+.memberShip form .date .select .MuiOutlinedInput-root{
+    margin:0;
+    padding:0;
+    border-radius:0;
+}
+.memberShip form .date .select input{
+    padding:22px;
+    border:none;
+}
+.memberShip form .date label{
+    display:block;
+}
+.memberShip form .gender select{
+    width:100%;
+    display: block;
+    padding:15px;
+    margin-top:5px;
+}
+.memberShip form a{
+    width:25%;
+    margin:45px;
+}
+.activeList{
+    background-color:gold !important;
+}
+#addressAndInformation{
+    opacity:1;
+}
+.error{
+    color:red;
+    font-style: italic
+}
+.payment{
+    display: none;
+}
+.success{
+    display:none;
+}
+.success h1{
+    text-align:center;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom:30px;
+}
+.success .successButton{
+    margin:auto;
+    width:20%;
+    margin-bottom:50px;
+}
+@media screen and (max-width:730px) {
+    .memberShip form div{
+        width:90%;
+        margin: auto;
+    }
+    .memberShip form button{
+       margin-left:50px;
+    }
+    .memberShip .active ul::before{
+        width:0;
+    }
+    .memberShip .active ul{
+        justify-content: center;
+        margin:auto;
+    }
+    .memberShip .active ul li{
+        padding:5px 20px;
+        margin:50px 10%;
+    }
+    .success .successButton{
+        width:50%;
+    }
+}

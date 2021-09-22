@@ -1,0 +1,50 @@
+.WhyChooseUs{
+    width:90%;
+    margin:auto;
+    margin-bottom:50px;
+    overflow:hidden;
+}
+.WhyChooseUs .services .service{
+    box-shadow:2px 1px 10px #ddd;
+    width:31%;
+    margin:1%;
+    padding:50px 0;
+    transition:.2s all ease;
+    border:1.5px solid white;
+    overflow:hidden;
+}
+.WhyChooseUs .services .service:hover{
+    border:1.5px solid goldenrod;
+    box-shadow:2px 1px 10px rgb(195, 194, 194),
+                2px 1px 10px rgb(195, 194, 194);
+}
+.WhyChooseUs .services .service img{
+    width:70px;
+    display:block;
+    margin:40px auto;
+}
+.WhyChooseUs .services .service h3{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.WhyChooseUs .services .service p{
+    margin:5px 20px;
+    text-align: center;
+    font-size:13px
+}
+@media screen and (max-width:850px) {
+    .WhyChooseUs .services .service{
+        width:45%;
+        margin: 20px auto;
+    }
+}
+@media screen and (max-width:650px){
+    .WhyChooseUs .services .service{
+        width:70%;
+    }
+}
+@media screen and (max-width:450px){
+    .WhyChooseUs .services .service{
+        width:90%;
+    }
+}

@@ -1,0 +1,29 @@
+.TrainingPrograms{
+    margin:auto;
+    width:90%;
+    overflow:hidden;
+}
+.TrainingPrograms .trainingRight img{
+    width:100%;
+    height:90%;
+}
+.TrainingPrograms .trainingLeft img{
+    width:100%;
+    height:90%;
+}
+.TrainingPrograms .trainingLeft,.trainingRight{
+    position:relative;
+}
+.TrainingPrograms .trainingBtn{
+    position:absolute;
+    left:11px;
+    bottom:70px;
+    padding:15px 0px;
+}
+@media screen and (max-width:1075px) {
+    .TrainingPrograms .trainingBtn{
+        width:70% !important;
+        font-size:16px;
+        bottom:20px;
+    }
+}

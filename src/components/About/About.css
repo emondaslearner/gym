@@ -1,0 +1,63 @@
+.aboutUs{
+    width:90%;
+    margin: auto;
+    overflow:hidden;
+}
+.aboutUs .aboutRight::before,.aboutUs .aboutRight::after{
+    content:'';
+    border-right:1px solid #e74c3c;
+    display:inline-block;
+    height:150px;
+    margin-left:50%;
+}
+.aboutUs .aboutRight h1{
+    font-size:50px;
+    font-family: 'Oswald', sans-serif;
+    color:rgb(225, 235, 225);
+}
+.aboutUs .aboutRight h2{
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    font-size:35px;
+}
+.aboutUs .aboutRight .second{
+    color:rgb(41, 38, 38);
+}
+.aboutUs .aboutRight p{
+    font-size:14px;
+}
+.aboutUs .aboutLeft{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+@media screen and (max-width:974px) {
+    .aboutUs .aboutRight{
+        width:50%;
+    }
+    .aboutUs .aboutRight::before,.aboutUs .aboutRight::after{
+        height:100px
+    }
+}
+@media screen and (max-width:800px) {
+    .aboutUs .aboutRight{
+        width:80%;
+        margin:auto;
+    }
+    .aboutUs .aboutLeft{
+        width:70%;
+        margin:auto;
+    }
+    .aboutUs .aboutRight::before,.aboutUs .aboutRight::after{
+        height:70px;
+    }
+}
+@media screen and (max-width:500px) {
+    .aboutUs .aboutRight{
+        width:100%;
+        margin:auto;
+    }
+    .aboutUs .aboutLeft{
+        width:90%;
+        margin:auto;
+    }
+}

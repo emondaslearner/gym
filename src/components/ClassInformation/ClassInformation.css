@@ -1,0 +1,84 @@
+.classInformation{
+    width:90%;
+    margin: auto;
+    position: relative;
+}
+.classInformation .information img{
+    width:100%;
+    height:50%;
+}
+.classInformation .information{
+    margin-top:50px;
+    margin-bottom:50px;
+    height:100%;
+}
+.classInformation .information p{
+    margin-top:50px;
+    line-height:35px;
+    color:rgb(136, 133, 133);
+    overflow: hidden;
+}
+.classInformation .information ul{
+    margin-top:50px;
+}
+.classInformation .information ul li{
+    list-style:none;
+    margin:15px 0;
+}
+.classInformation .information ul li span{
+    margin-left:20px;
+}
+.classInformation .schedule{
+    margin-left:3%;
+}
+.classInformation .schedule .day .dayIn{
+    width:45%;
+    box-shadow:2px 1px 10px #ddd;
+    margin:2%;
+}
+.classInformation .schedule .day .dayIn p{
+    font-size:14px;
+    color:gold;
+}
+.classInformation .schedule .day .dayIn h5{
+    margin-top:10px;
+}
+@media screen and (max-width:1030px) {  
+    .classInformation .information{
+        width:58%
+    }
+    .classInformation .schedule{
+        width:38%
+    }
+}
+@media screen and (max-width:920px) {
+    .classInformation .schedule{
+        width:30%
+    }
+    .classInformation .schedule .day .dayIn{
+        width:90%;
+    }
+    .classInformation .information{
+        width:100%;
+        margin:20px auto;
+    }
+    .classInformation .schedule{
+        width:80%;
+        margin: auto;
+        margin-bottom:20px;
+    }
+    .classInformation .schedule .day .dayIn{
+        width:40%;
+    }
+}
+@media screen and (max-width:510px) {
+
+    .classInformation .schedule{
+        width:90%;
+        margin: auto;
+        margin-bottom:20px;
+    }
+    .classInformation .schedule .day .dayIn{
+        width:45%;
+    }
+}

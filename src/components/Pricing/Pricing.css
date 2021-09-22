@@ -1,0 +1,60 @@
+.pricing{
+    width:90%;
+    margin: auto;
+    overflow: hidden;
+}
+.pricing .price1{
+    background-image:url('../Image/hipcravo-5UbIqV58CW8-unsplash.jpg');
+}
+.pricing .price2{
+    background-image:url('../Image/daniel-apodaca-WdoQio6HPVA-unsplash.jpg');
+}
+.pricing .price3{
+    background-image:url('../Image/penguinuhh-8VI6WwEEEHw-unsplash.jpg');
+}
+.pricing .price{
+    width:31%;
+    margin:1%;
+    background-size:cover;
+    padding:50px 0;
+}
+.pricing p{
+    font-size:12px;
+    color:rgb(129, 126, 126);
+    margin: 0;
+}
+.pricing .price h6{
+    text-align: center;
+    color:gold;
+}
+.pricing .price h2{
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    text-align: center;
+}
+.pricing .price h1{
+    font-size:50px;
+    color:gold;
+    text-align: center;
+}
+.pricing .price ul li{
+    color:rgb(226, 221, 221);
+    list-style:none;
+    text-align: center;
+    margin:15px;
+}
+.pricing .price a{
+    margin: auto;
+    margin-top:30px;
+}
+@media screen and (max-width:830px) {   
+    .pricing .price{
+        width:45%;
+        margin:20px auto;
+    }
+}
+@media screen and (max-width:530px) { 
+   .pricing .price{
+       width:80%;
+   } 
+}

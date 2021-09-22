@@ -1,0 +1,48 @@
+.gymHeader .classesHeader h1{
+    font-size:60px;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    margin:170px 0;
+}
+.classes{
+    width:90%;
+    margin:auto;
+    overflow: hidden;
+    margin-bottom:20px;
+}
+.classes .class{
+    width:32%;
+    height:400px;
+    margin:50px 0;
+    margin-left:1%;
+    position: relative;
+}
+.classes .class img{
+    width:100%;
+    height:100%;
+}
+.classes .class a{
+    width:85%;
+    padding:20px 0;
+    margin:0;
+    position:absolute;
+    left:7%;
+    bottom:-30px;
+}
+@media screen and (max-width:950px) {
+    .classes .class{
+        width:50%;
+        margin: 50px auto;
+    }
+}
+@media screen and (max-width:660px) {
+    .classes .class{
+        width:80%;
+    }
+}
+@media screen and (max-width:400px) {
+    .classes .class{
+        width:80%;
+        height:300px;
+    }
+}

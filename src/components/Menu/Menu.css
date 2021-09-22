@@ -1,0 +1,117 @@
+.Menu{
+    overflow:hidden;
+    width:90%;
+}
+.Menu nav{
+    display:flex;
+    justify-content:flex-end;
+}
+.Menu nav li{
+    list-style:none;
+    margin:10px 15px;
+}
+.Menu nav li a{
+    text-decoration:none;
+    color:#ddd;
+    font-size:14px;
+}
+.Menu nav li a:hover{
+    display: block;
+    padding-top:-3px;
+    color:white;
+}
+.logo h2{
+    color:white;
+    text-decoration:none;
+}
+.logo h2 span{
+    color:gold
+}
+.bar{
+    display:none;
+}
+.close{
+    display:none;
+}
+@media screen and (max-width:1030px) {
+    .Menu{
+        display:flex;
+    }
+    .Menu .logo{
+        width:20%
+    }
+    .Menu nav{
+        width:80%;
+    }
+}
+@media screen and (max-width:850px) {
+    .bar{
+        display: block;
+        position:absolute;
+        left:90%;
+        top:20px
+    }
+    .Menu .logo{
+        width:50%
+    }
+    .bar a{
+        font-size:30px;
+        color:white;
+    }
+    .Menu nav{
+        display:none;
+        position:fixed;
+        right:0;
+        top:0;
+        width:50%;
+        height:100vh;
+        background-color:black;
+        padding-top:40px;
+        padding-left:40px;
+        opacity:0;
+        z-index:99999;
+    }
+    .Menu nav li a{
+       padding:0;
+       margin:0;
+    }
+    .Menu nav li a:hover{
+        color:gold;
+        padding:0;
+        margin:0;
+    }
+    .close{
+        display:block;
+        position:absolute;
+        right:20px;
+        top:10px;
+        font-size:30px;
+        color:white;
+    }
+    .close:hover{
+        color:gold;
+    }
+    .animateMenu{
+        animation-name:animateMenu;
+        animation-duration:1s;
+    }
+}
+@media screen and (max-width:420px) {
+    .Menu nav{
+        width:100%;
+    }
+    .bar{
+        left:80%;
+    }
+    .close{
+        right:40px;
+    }
+}
+@keyframes animateMenu {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}

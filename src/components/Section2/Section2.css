@@ -1,0 +1,54 @@
+.workOut{
+    width:90%;
+    overflow: hidden;
+    margin: auto;
+    padding:40px 0;
+}
+.workOut .sc1{
+    background-image:url('../Image/hipcravo-5UbIqV58CW8-unsplash.jpg');
+}
+.workOut .sc2{
+    background-image:url('../Image/daniel-apodaca-WdoQio6HPVA-unsplash.jpg');
+}
+.workOut .sc3{
+    background-image:url('../Image/penguinuhh-8VI6WwEEEHw-unsplash.jpg');
+}
+.workOut .service{
+    width:31%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:1%;
+    padding:50px;
+}
+.workOut .service h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: white;
+}
+.workOut .service p{
+    text-align:center;
+    color:#ddd;
+    font-size:14px;
+    line-height:30px;
+}
+.workOut .service img{
+    width:50px;
+    display: block;
+    margin:15px auto;
+}
+.workOut .service:hover h1{
+    color:gold
+}
+@media screen and (max-width:910px) {
+    .workOut .service{
+        margin:20px auto;
+        width:45%;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .workOut .service{
+        width:80%;
+    }
+}
